@@ -38,8 +38,8 @@ yarn remove packageName #Xóa package
 
 ```
 ./
-├─ src/
 ├─ public/
+├─ src/
 │  ├─ hooks/
 │  ├─ types/
 │  ├─ components/
@@ -105,9 +105,9 @@ cân nhắc tạo thành một component trong thư mục component
 - typescript
 - express
 - mongoose
-- express-async-handler: Handler error to prevent server stop when error occurs
+- express-async-handler: Handler error to prevent server from stopping when error occurs
 - cors: Cross origin is painful to set up ourself
-- dotevn: Allow using environment variable
+- dotenv: Allow using environment variable
 - nodemon: Hot reload server
 - ts-node: nodemon need this for typescript
 - json-server(dev deps): Fake rest api
